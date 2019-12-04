@@ -1,6 +1,6 @@
 ## setup termux
 
-### enable sshd
+### enable sshd 
 ```
 pkg install openssh
 ```
