@@ -1,0 +1,6 @@
+#### Back up all storage on the phone
+adb pull /sdcard ./
+
+#### for reflash rom
+adb reboot recovery
+adb sideload update.zip

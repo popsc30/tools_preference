@@ -1,0 +1,14 @@
+#change root password
+- sudo passwd root
+#check port or if port been used
+- netstat -anp | grep '22'
+  netstat -anp | grep 'ssh'
+- for Mac
+  netstat -anv | grep ‘$port’
+#get the path by pid 
+- pwdx <PID>
+- for Mac
+  lsof -a -p ‘$pid’ -d cwd -n | tail -1 | awk '{print $NF}'
+#check linux version
+- cat /etc/os-release
+  lsb_release -a

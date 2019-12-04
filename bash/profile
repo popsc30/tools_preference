@@ -1,0 +1,8 @@
+#!/usr/bin/env
+
+#load .bashrc
+[[ -s ~/.bashrc ]] && source ~/.bashrc
+
+#my aliases
+alias ll="ls -la"
+alias grep="grep --color=auto"

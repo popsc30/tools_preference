@@ -1,0 +1,9 @@
+1. get the mac model from system report
+2. make a copy of Bootcamp Assistant then modify the info.plist,
+   remove pre from "preUEFI" and "preUSB" and add your model to the array
+3. then do the bootcamp installation
+4. if you get problems like 'no bootable devices' just restart and 
+   hold option key to boot into windows(EFI boot)
+5. if you get issues like 'windows can only install on GPT disk', 
+   then go back macos, earse the bootcamp partitaion as mac extended journaled
+6. get into the windows installation then remove bootcamp disk then done!
