@@ -4,5 +4,5 @@
 [[ -s ~/.bashrc ]] && source ~/.bashrc
 
 #my aliases
-alias ll="ls -la"
+alias ll='ls -latnh'
 alias grep="grep --color=auto"
